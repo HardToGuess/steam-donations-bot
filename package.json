@@ -1,0 +1,29 @@
+{
+  "name": "steam-donation-bot",
+  "version": "0.0.1",
+  "description": "Easy bot for receiving donations in Steam items",
+  "main": "start.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HardToGuess/steam-donations-bot.git"
+  },
+  "keywords": [
+    "steam"
+  ],
+  "author": "https://github.com/HardToGuess",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/HardToGuess/steam-donations-bot/issues"
+  },
+  "homepage": "https://github.com/HardToGuess/steam-donations-bot#readme",
+  "dependencies": {
+    "steam-totp": "^2.0.1",
+    "steam-tradeoffer-manager": "^2.9.3",
+    "steam-tradeoffers": "^3.1.0",
+    "steam-user": "^3.24.0",
+    "steamcommunity": "^3.34.0"
+  }
+}
